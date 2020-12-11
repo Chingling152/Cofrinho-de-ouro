@@ -1,0 +1,186 @@
+/* Seções */
+.como-aplicar__conteudo,
+.secao-pontuacao__conteudo{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 60%;
+}
+
+/* Como aplicar */
+
+h2{
+    letter-spacing: 2px!important;
+}
+
+.como-aplicar__conteudo p{
+    margin-top: 30px;
+}
+
+.como-aplicar__conteudo > div {
+    max-width: 500px;
+}
+
+.como-aplicar__subtitulo{
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:var(--dark-yellow)
+}
+
+.como-aplicar__casa,
+.como-aplicar__ambiente-escolar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* height: 430px; */
+}
+
+/* Como aplicar - Imagens */
+.como-aplicar__imagens,
+.como-aplicar__imagems--secundarias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.como-aplicar__imagem--principal,
+.como-aplicar__imagem--secundario{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Como aplicar - Imagem principal */
+
+.como-aplicar__imagem--principal{
+    width: 320px;
+    height: 320px;
+}
+
+.como-aplicar__ambiente-escolar .como-aplicar__imagem--principal{
+    background-image: url("../assets/imgs/Gamificação/ambiente_escolar_1.png");
+}
+
+/* Como aplicar - Imagem Secundaria */
+.como-aplicar__imagem--secundario{
+    width: 140px;
+    height: 140px;
+}
+
+.como-aplicar__imagems--secundarias{
+    flex-direction: column;
+}
+
+/* Como aplicar - Ambiente escolar */
+.como-aplicar__ambiente-escolar .como-aplicar__imagem--secundario-1{
+    background-image: url("../assets/imgs/Gamificação/ambiente_escolar_2.png");
+}
+
+.como-aplicar__ambiente-escolar .como-aplicar__imagem--secundario-2{
+    background-image: url("../assets/imgs/Gamificação/ambiente_escolar_3.png");
+}
+
+/* Como aplicar - Casa */
+.como-aplicar__casa .como-aplicar__imagem--principal{
+    background-image: url("../assets/imgs/Gamificação/em_casa_1.png");
+}
+
+.como-aplicar__casa .como-aplicar__imagem--secundario-1{
+    background-image: url("../assets/imgs/Gamificação/em_casa_2.png");
+}
+
+.como-aplicar__casa .como-aplicar__imagem--secundario-2{
+    background-image: url("../assets/imgs/Gamificação/em_casa_3.png");
+}
+
+.como-aplicar__conteudo p{
+    font-weight: 400;
+    font-size: 18px;
+    color:var(--light-gray);
+}
+
+/* Pontuação e recompensas */
+
+.secao-pontuacao__conteudo{
+    margin-top:75px;
+    margin-bottom:25px;
+}
+
+.ambiente-escolar__conteudos,
+.casa__conteudos{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.pontuacao__ambiente-escolar > h3,
+.pontuacao__em-casa > h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.ambiente-escolar__conteudo,
+.casa__conteudo{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    margin: 30px 10px;
+}
+
+.ambiente-escolar__conteudo > img,
+.casa__conteudo > img
+{
+    margin-right:25px;
+}
+
+.ambiente-escolar__conteudo__texto > h4,
+.casa__conteudo__texto > h4{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.pontuacao__imagem{
+    border-radius:100px;
+    border:4px solid var(--light-gray);
+}
+
+.pontuacao__imagem--dourado{
+    border-radius:100px;
+    border:4px solid var(--dark-yellow);
+}
+
+/* Aspectos da gamificação */
+.aspectos{
+    margin: 50px auto;
+}
+
+.aspectos__conteudo{
+    display: flex;
+    margin: 30px auto;
+    width: 60%;
+    text-align: left;
+}
+
+.aspectos__conteudo h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:var(--dark-purple);
+}
+
+.aspectos__conteudo p{
+    font-size: 16px;
+    font-weight: 300;
+    color:var(--dark-purple);
+}
+
+.aspectos__conteudo > img{
+    border-radius: 100px;
+    border: 4px solid var(--light-gray);
+    margin-right: 50px;
+}

@@ -1,0 +1,39 @@
+/* Conteudos */
+.conteudos__publicacao{
+    display: flex;
+    margin: 50px auto;
+    width: 65%;
+    text-align: left;
+}
+
+/* Publicação video */
+.publicacao__video{
+    margin-right: 50px;
+}
+
+/* Publicação topo */
+.publicacao__descricao__topo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.publicacao__descricao__topo > h4{
+    font-size: 22px;
+    color:var(--dark-yellow);
+}
+
+.publicacao__descricao__topo > span{
+    font-size: 18px;
+    color:var(--dark-yellow);
+    font-weight: 200;
+}
+
+/* Publicação decrição */
+.publicacao__descricao > p{
+    color: var(--light-gray);
+    font-weight: 300;
+    width: 85%;
+    line-height: 22px;
+}

@@ -1,0 +1,65 @@
+h2{
+    letter-spacing: 2px!important;
+}
+
+/* Contato */
+.contato__conteudo{
+    width: 640px;
+    margin: 50px auto 0px auto;
+}
+
+.contato__linha{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.contato__linha *{
+    font-size: 20px;
+    color: var(--light-yellow);
+    text-decoration: none;
+}
+
+.contato__linha p{
+    font-weight: 200;
+}
+
+.contato__linha b{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* Newsletter */
+.secao-newsletter{
+    margin: auto;
+    width: 500px;
+}
+
+.secao-newsletter__titulo{
+    width: 400px;
+    margin: auto;
+    letter-spacing: 2px!important;
+}
+
+.secao-newsletter > p{
+    font-weight: 300;
+    color:var(--light-yellow);
+    font-size: 16px;
+    margin: 50px 0px;
+}
+
+.newsletter__formulario__input{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid var(--dark-gray);
+}
+
+.newsletter__formulario__input:focus{
+    outline: none;
+}
+
+.newsletter__formulario__botao{
+    margin-top: 50px;
+    padding: 15px 30px;
+}

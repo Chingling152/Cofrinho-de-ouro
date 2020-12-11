@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --dark-yellow:#eebb20;
+    --light-yellow:#ecf74e;
+    --light-gray:#e0d5ce;
+    --dark-gray:#707070;
+    --purple:#9711ab;
+    --dark-purple:#2e0848;
+    
+    --main-font:"Fredoka One" , sans-serif;
+    --secondary-font:"Josefin Sans" , sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+}
+
+/* 
+    CSS B.E.M.
+    __ = elemento dentro de um bloco
+    -- = elemento com versão modificada
+    - = espacamento
+*/
+
+h1{
+    font-family: var(--main-font);
+    color:var(--purple);
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.titulo-secao--principal{
+    font-family:var(--main-font);
+    color:var(--light-yellow);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom:70px;
+}
+
+.titulo-secao--principal-escuro{
+    font-family:var(--main-font);
+    color:var(--dark-purple);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom:60px;
+}
+
+.titulo-secao--secundario{
+    font-family:var(--secondary-font);
+    color:var(--dark-purple);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:60px;
+}
+
+p{
+    font-family: var(--secondary-font);
+}
+
+/* Cabeçalho */
+.cabecalho,
+.cabecalho ul{
+    display: flex;
+    list-style:none;
+    font-family:var(--secondary-font);
+}
+
+.cabecalho{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cabecalho__nav{
+    width: 45%;
+    margin-top:15px;
+}
+
+.cabecalho__nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--dark-purple);
+}
+
+.cabecalho__link:hover,
+.cabecalho__link:focus{
+    outline: none;
+    text-shadow: 1px 1px 5px var(--dark-gray);
+}
+
+.cabecalho__link--selecionado{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Banner */
+.banner{
+    width: 100%;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 25px 70px;
+    background-image: url("../assets/imgs/banner.png");
+    background-size: cover;
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner__conteudo{
+    width: 33%;
+    margin-bottom: 75px;
+}
+
+.banner__conteudo > p{
+    margin: 40px 0px;
+}
+
+/* Fundo gradiente */
+.fundo-gradiente--principal{
+    background-image: linear-gradient(45deg, #9711AB,#510E80);
+}
+
+.fundo-gradiente--claro{
+    background-color: var(--light-gray);
+    /* background-image: linear-gradient(45deg,var(--light-gray), #FFFFFF); */
+}
+
+.fundo-gradiente--amarelo{
+    background-image: linear-gradient(45deg, #ECF74E,#EEBB20);
+}
+
+/* Botões */
+.botao{
+    font-family:var(--secondary-font);
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding:15px 50px;
+    border: none;
+}
+
+.botao-principal{
+    background-color: var(--purple);
+    color: var(--light-gray);
+}
+
+.botao-principal:hover,
+.botao-principal:focus{
+    background-color: #A312BA;
+    color: var(--light-yellow);
+    cursor: pointer;
+    outline: none;
+}
+
+.botao-secundario{
+    background-color: var(--light-yellow);
+    color: var(--dark-purple);
+    padding:15px 30px;
+}
+
+.botao-secundario:hover,
+.botao-secundario:focus{
+    cursor: pointer;
+    background-color: var(--dark-yellow);
+    color: var(--dark-purple);
+    outline: none;
+}
+
+/* Seções */
+.secao{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Ranking */
+.ranking{
+    margin: 50px auto;
+    border-collapse:collapse;
+    width:1200px;
+}
+
+.ranking__cabecalho--tarefas{
+    width: 75px;
+    text-align: center;
+}
+
+.ranking__cabecalho--nome{
+    width: 70%;
+}
+
+.ranking__cabecalho th{
+    background-color: #EED734;
+    color: #741095;
+    font-family: var(--main-font);
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.ranking__aluno td{
+    padding: 20px 20px;
+    text-align: left;
+    color: var(--dark-purple);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--dark-gray);
+}
+
+.ranking__aluno-icone{
+    border-radius:100px;
+    border:4px solid var(--dark-purple);
+}
+
+/* Footer */
+footer{
+    text-transform: uppercase;
+    font-family:var(--secondary-font);
+    padding: 10px 25px;
+}
