@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <!-- <link rel="stylesheet" href="/css/contato.css"> -->
+    <link rel="stylesheet" href="../css/informacoes-aluno.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -45,25 +45,25 @@
         <div class="fundo-gradiente--principal">
             <section class="secao">
                 <h2 class="titulo-secao--principal">Informações do aluno</h2>
-                <div>
-                    <div>
+                <div class="informacoes-aluno">
+                    <div class="informacoes-aluno__linha">
                         <p>Nome do aluno</p>
                         <div>
-                            <img>
-                            <p></p>
+                            <img src="../assets/icons/icone_moeda.png">
+                            <p>$ 10,00</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="informacoes-aluno__linha">
                         <p>Nome da escola</p>
                         <div>
-                            <img>
+                            <!-- <img> -->
                             <p></p>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="secao secao-ranking">
-                <h2 class="titulo-secao--principal">Ranking</h2>
+                <h2 class="titulo-secao--principal">Prêmios</h2>
                 <div>
                     <table class="ranking">
                         <thead class="ranking__cabecalho">
@@ -75,33 +75,34 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="ranking__aluno">
+                            <tr class="ranking__premio">
                                 <td></td>
                                 <td>
-                                    <img alt="Foto de produto" src="../assets/icons/avatares/avatar_1.png" class="ranking__aluno-icone" draggable="false">
+                                    <img alt="Foto de produto" src="../assets/icons/produtos/icone_boneca.png" class="ranking__premio-icone ranking__premio-icone--boneca" draggable="false">
                                 </td>
-                                <td>Produto nome</td>
-                                <td>$ 100,00</td>
+                                <td>Boneca</td>
+                                <td>$ 50,00</td>
                             </tr>
-                            <tr class="ranking__aluno">
+                            <tr class="ranking__premio">
                                 <td></td>
                                 <td>
-                                    <img alt="Foto de produto" src="../assets/icons/avatares/avatar_2.png" class="ranking__aluno-icone" draggable="false">
+                                    <img alt="Foto de produto" src="../assets/icons/produtos/icone_bola.png" class="ranking__premio-icone ranking__premio-icone--bola" draggable="false">
                                 </td>
-                                <td>Produto nome</td>
-                                <td>$ 90,00</td>
+                                <td>Bola</td>
+                                <td>$ 15,00</td>
                             </tr>
-                            <tr class="ranking__aluno">
+                            <tr class="ranking__premio">
                                 <td></td>
                                 <td>
-                                    <img alt="Foto de produto" src="../assets/icons/avatares/avatar_3.png" class="ranking__aluno-icone" draggable="false">
+                                    <img alt="Foto de produto" src="../assets/icons/produtos/icone_carrinho.png" class="ranking__premio-icone ranking__premio-icone--carrinho" draggable="false">
                                 </td>
-                                <td>Produto nome</td>
-                                <td>$ 80,00</td>
+                                <td>Carrinho</td>
+                                <td>$ 50,00</td>
                             </tr>
                         </tbody>
                     </table>
-                    <a href="#" class="botao botao-principal">Ver Ranking Completo</a>
+                    <p>Para adquirir qualquer um dos prêmios acima, fale com o/a responsável pela ideia na sua escola</p>
+                    <a href="#" class="botao botao-principal">Ver todos os produtos</a>
                 </div>
             </section>
         </div>
@@ -109,5 +110,6 @@
     <footer>
         Cofrinho de Ouro, 2020 - Todos os direitos reservados
     </footer>
+    <script>AOS.init();</script>
 </body>
 </html>

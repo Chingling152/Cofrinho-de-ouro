@@ -138,16 +138,20 @@ h2{
     margin-right:25px;
 }
 
+.ambiente-escolar__conteudo__texto > p{
+    line-height: 20px;
+}
+
 .ambiente-escolar__conteudo__texto > h4,
 .casa__conteudo__texto > h4{
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
 .pontuacao__imagem{
     border-radius:100px;
-    border:4px solid var(--light-gray);
+    border:4px solid var(--dark-gray);
 }
 
 .pontuacao__imagem--dourado{

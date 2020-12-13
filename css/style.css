@@ -42,12 +42,17 @@ h3{
     font-size: 24px;
 }
 
+p{
+    font-family: var(--secondary-font);
+}
+
+/* Titulos */
 .titulo-secao--principal{
     font-family:var(--main-font);
     color:var(--light-yellow);
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom:70px;
+    margin-bottom:65px;
 }
 
 .titulo-secao--principal-escuro{
@@ -55,7 +60,7 @@ h3{
     color:var(--dark-purple);
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom:60px;
+    margin-bottom:55px;
 }
 
 .titulo-secao--secundario{
@@ -64,11 +69,7 @@ h3{
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-bottom:60px;
-}
-
-p{
-    font-family: var(--secondary-font);
+    margin-bottom:55px;
 }
 
 /* Cabeçalho */
@@ -122,9 +123,9 @@ p{
     padding: 25px 70px;
     background-image: url("../assets/imgs/banner.png");
     background-size: cover;
-    background-size:50%;
+    background-size:40%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right center;
 }
 
 .banner__conteudo{
@@ -143,7 +144,7 @@ p{
 
 .fundo-gradiente--claro{
     background-color: var(--light-gray);
-    /* background-image: linear-gradient(45deg,var(--light-gray), #FFFFFF); */
+    background-image: linear-gradient(45deg,#FFFFFF,var(--light-gray));
 }
 
 .fundo-gradiente--amarelo{
@@ -190,7 +191,7 @@ p{
 
 /* Seções */
 .secao{
-    padding: 80px 20px;
+    padding: 65px 20px;
     text-align: center;
 }
 

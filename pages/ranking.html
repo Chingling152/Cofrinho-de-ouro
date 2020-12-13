@@ -3,9 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+
     <title>Ranking</title>
 </head>
 <body>
-    
+    <div class="banner">
+        <header class="cabecalho">
+            <img class="cabecalho__imagem" src="../assets/imgs/Logo.svg" height="120" draggable="false" data-aos="fade-right" />
+            <nav class="cabecalho__nav">
+                <ul class="cabecalho__nav__list" data-aos="fade-down">
+                    <li>
+                        <a class="cabecalho__link cabecalho__link--selecionado" href="../index.html">Início</a>
+                    </li>
+                    <li>
+                        <a class="cabecalho__link" href="como-aplicar.html">Como
+                            Aplicar</a>
+                    </li>
+                    <li>
+                        <a class="cabecalho__link" href="blogs.html">Blogs</a>
+                    </li>
+                    <li class="cabecalho__link">
+                        <a class="cabecalho__link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="cabecalho__link">
+                        <a class="cabecalho__link" href="informacoes-aluno.html">Área do aluno</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner__conteudo" data-aos="fade-right">
+            <h1>Cofrinho de Ouro</h1>
+            <p>Uma gamificação em educação financeira para jovens entre 6 e 12 anos aplicados dentro de escolas.</p>
+            <a href="como-aplicar.html" class="botao botao-principal">Saiba mais</a>
+        </div>
+    </div>
+    <main class="secao fundo-gradiente--claro">
+        <table class="ranking">
+            <thead class="ranking__cabecalho">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th class="ranking__cabecalho--nome">Nome</th>
+                    <th class="ranking__cabecalho--tarefas">Tarefas Concluídas</th>
+                    <th>Economias</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="ranking__aluno">
+                    <td>1º</td>
+                    <td>
+                        <img alt="Foto de 'Aluno nome'" src="../assets/icons/avatares/avatar_1.png" class="ranking__aluno-icone" draggable="false">
+                    </td>
+                    <td>Aluno Nome</td>
+                    <td>10</td>
+                    <td>$ 100,00</td>
+                </tr>
+                <tr class="ranking__aluno">
+                    <td>2º</td>
+                    <td>
+                        <img alt="Foto de 'Aluno nome'" src="../assets/icons/avatares/avatar_2.png" class="ranking__aluno-icone" draggable="false">
+                    </td>
+                    <td>Aluno Nome</td>
+                    <td>9</td>
+                    <td>$ 90,00</td>
+                </tr>
+                <tr class="ranking__aluno">
+                    <td>3º</td>
+                    <td>
+                        <img alt="Foto de 'Aluno nome'" src="../assets/icons/avatares/avatar_3.png" class="ranking__aluno-icone" draggable="false">
+                    </td>
+                    <td>Aluno Nome</td>
+                    <td>8</td>
+                    <td>$ 80,00</td>
+                </tr>
+                <tr class="ranking__aluno">
+                    <td>4º</td>
+                    <td>
+                        <img alt="Foto de 'Aluno nome'" src="../assets/icons/avatares/avatar_3.png" class="ranking__aluno-icone" draggable="false">
+                    </td>
+                    <td>Aluno Nome</td>
+                    <td>7</td>
+                    <td>$ 70,00</td>
+                </tr>
+                <tr class="ranking__aluno">
+                    <td>5º</td>
+                    <td>
+                        <img alt="Foto de 'Aluno nome'" src="../assets/icons/avatares/avatar_2.png" class="ranking__aluno-icone" draggable="false">
+                    </td>
+                    <td>Aluno Nome</td>
+                    <td>5</td>
+                    <td>$ 45,00</td>
+                </tr>
+                <tr class="ranking__aluno">
+                    <td>6º</td>
+                    <td>
+                        <img alt="Foto de 'Aluno nome'" src="../assets/icons/avatares/avatar_1.png" class="ranking__aluno-icone" draggable="false">
+                    </td>
+                    <td>Aluno Nome</td>
+                    <td>4</td>
+                    <td>$ 20,00</td>
+                </tr>
+                <tr class="ranking__aluno">
+                    <td>7º</td>
+                    <td>
+                        <img alt="Foto de 'Aluno nome'" src="../assets/icons/avatares/avatar_2.png" class="ranking__aluno-icone" draggable="false">
+                    </td>
+                    <td>Aluno Nome</td>
+                    <td>1</td>
+                    <td>$ 5,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        Cofrinho de Ouro, 2020 - Todos os direitos reservados
+    </footer>
+    <script>AOS.init();</script>
 </body>
 </html>
